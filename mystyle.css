@@ -1,0 +1,52 @@
+h2 {
+    color: white;
+    background-color: green;
+}
+img {
+    border-radius: 50%;
+  }
+h1 {
+    color:darkblue;
+    border: 1px solid blue;
+    text-align: center;
+}
+body {
+    background-color:rgb(143, 186, 143);
+}
+.banner {
+    color:aliceblue;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+    padding-top: 50px;
+    background-color: aquamarine;
+    background-image: url('banner.jpeg');
+    width: 100%;
+    height: 150px;
+}
+.first_p{
+    background-color: aquamarine;
+}
+.menu {
+    border: 1px solid green;
+    display: flex;
+}
+.menu:hover {
+    color: red;
+    background-color: yellow;
+}
+ul li :last-child{
+    color: black;
+}
+li{
+    border: 1px solid green;
+    width: 150px;
+    list-style-type: none;
+    background-color: yellow;
+}
+ul > li{
+    color:purple;
+}
+ body, li {
+    color:blue
+ }
