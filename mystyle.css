@@ -1,10 +1,10 @@
 a:link {
-    color: red;
+    color: rgb(0, 177, 208);
   }
   
   /* visited link */
   a:visited {
-    color: green;
+    color: rgb(169, 1, 1);
   }
   
   /* mouse over link */
@@ -14,7 +14,7 @@ a:link {
   
   /* selected link */
   a:active {
-    color: blue;
+    color: rgb(229, 255, 0);
   }
 
 
@@ -26,7 +26,9 @@ img {
     border-radius: 25%;
     display: flex;
     margin-left: 410px;
+    height: 100%;
     width: 300px;
+    padding-bottom: 10px;
   }
 h1 {
     color:white;
@@ -34,14 +36,17 @@ h1 {
     border-style: dashed;
     text-align: center;
     background-color:#0082b1;
-    margin-left: 300px;
-    margin-right: 300px;
+
 }
+.container {
+    margin:0 auto; /* this will center the page */
+    width:960px; /*  use your width here */
+ }
 body {
-    background-color: rgb(255, 187, 255);
+    background-color: white;
     padding-right: 200px;
     padding-left: 200px;
-    font-family: Georgia, Times, serif;
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 
 .banner {
@@ -52,7 +57,7 @@ body {
     padding-top: 50px;
     width: 100%;
     height: 150px;
-    background: linear-gradient(-45deg, #cf0404, #9e003d, #0082b1, #ce009e);
+    background: linear-gradient(-45deg, #790101, #6f002b, #014b66, #710057);
     background-size: 400% 400%;
     animation: gradient 10s ease infinite;
 }
@@ -72,12 +77,22 @@ body {
 .logo {
     display: flex;
     margin-left: 800px;
-    margin-top: 500px;
+    margin-top: 450px;
     position: fixed;
-    width: 200px;
+    height: 15%;
+    width: 5px;
+}
+li {
+    padding-left: 20px;
+    list-style-type: circle;
+    list-style-position: inside
+}
+ul{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 ul > li{
-    color:#9e003d;
+    color:#0082b1;
 }
 
  body, li {
@@ -95,11 +110,9 @@ ul > li{
    top: 50%;
    left: 50%;
    display: flex;
+   background-color: #2fb2e2;
  }
- #menu {
-    position: -webkit-sticky;
-    position: sticky;
- }
+
  
  .menu a {
    color: black;
@@ -133,10 +146,10 @@ ul.menu li{
     color:white
 }
 .article2{
-    color:yellow
+    color:#888888
 }
 .article3{
-    color: pink;
+    color: rgb(40, 39, 39);
 }
 .contacts{
     float: left;
@@ -151,14 +164,75 @@ ul.menu li{
 }
 
 
-footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #111;
-    height: auto;
-    width: 100vw;
-    padding-top: 40px;
-    color: #fff;
+.categories {
+    color:black
+  }
+  .categories a {
+    color:black
+  }
+
+.quick_links a {
+    color:black
+  }
+.quick_links li {
+    display: inline-block;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color:#0082b1;
+    color: #ffffff;
+  }
+.categories li {
+    display: inline-block;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color:#0082b1;
+    color: #ffffff;
 }
+.categories a:hover {
+   color:#2fb2e2;
+ }
+ .quick_links a:hover {
+    color:#2fb2e2;
+  }
+article {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+p {
+    padding-top: 10px;
+}
+h2{
+    padding-bottom: 10px;
+}
+#task{
+    background-color:#f0c6dd;
+}
+#requirements{
+    background-color: #f0c6dd;
+}
+#requirements{
+    background-color: #f0c6dd;
+}
+#submission{
+    background-color: #f0c6dd;
+}
+#grading{
+    background-color: #f0c6dd;
+}
+aside {
+    background-color: #f0c6dd;
+}
+footer{
+    background-color: #cd9f9f;
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
+.map {
+    float: right;
+}
+.sad {
+        cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"), auto;
+}
+.happy {
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+  }
