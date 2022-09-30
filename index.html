@@ -17,9 +17,12 @@
   <!-- Navbar -->
   <nav id="menu">
       <a class="logo" href="#">
+  
         <img src="logo.png" alt="logo" width="80px" height="80px">
       </a>
-      <ul class="menu">
+      <label for="hamburger" class="hamburger-icon"></label>
+      <input class="checkbox" type="checkbox" id="hamburger"/>
+      <ul class="nav-toggle">
         <li><a class="active" href="#task">Task</a></li>
         <li><a href="#requirements">Requirements</a></li>
         <li><a href="#submission">Submission</a></li>
@@ -147,7 +150,7 @@
     <article id="grading">
       <h2 class="header5">Grading</h2>
       For this assignment you will get 
-      <strong>80 points</strong>  in total.
+      <strong id="f">80 points</strong>  in total.
       The final score is the sum of the points 
       for each of the criteria below.
       This score will be the same for both 
