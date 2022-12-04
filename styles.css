@@ -436,11 +436,11 @@ img {
 
 }
 .skills__bar{
-  background-color: var(--first-color-lighter);
+  background-color: #a1a9fe;
 }
 .skills__percentage{
   display: block;
-  background-color: var(--first-color);
+  background-color: #53dfd1;
 }
 .skills__asept{
   width: 100%;
@@ -535,14 +535,14 @@ img {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: var(--first-color);
+  background-color: #1c9b8e;
   border-radius: 50%;
 }
 .qualification__line{
   display: block;
   width: 1px;
   height: 100%;
-  background-color: var(--first-color);
+  background-color: #1c9b8e;
   transform: translate(6px, -7px);
 }
 .qualification [data-content]{
@@ -804,7 +804,7 @@ img {
   row-gap: 3.5rem;
 }
 .footer__bg{
-  background-color: var(--first-color-second);
+  background-color: #0f1e64;
   padding: 2rem 0 3rem;
 }
 .footer__title{
