@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="../resources/swiper-bundle.min.css">
+
+    <!--==================== CSS ====================-->
+
+    <link rel="stylesheet" href="../styles.css">
+
+    <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="" class="nav__logo">Arsen Orazbek</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="../index.html" class="nav__link active-link">
+                            <i class="uil uil-home"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../index.html#about" class="nav__link">
+                            <i class="uil uil-user"></i> About me
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="Skills_qualifications.html" class="nav__link">
+                            <i class="uil uil-file-info-alt"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="Services.html" class="nav__link">
+                            <i class="uil uil-briefcase"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="Services.html#portfolio" class="nav__link">
+                            <i class="uil uil-scenery"></i> Achievements
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="ContactMe.html" class="nav__link">
+                            <i class="uil uil-message"></i> Contact me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Information</h2>
+            <span class="section__subtitle">You can contact me</span>
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-mobile-android contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <p class="contact__subtitle">+7(705)-979-58-39</p>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-envelope-edit contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">E-mail</h3>
+                            <p class="contact__subtitle">arsen.orazbek@nu.edu.kz</p>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker-alt contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <p class="contact__subtitle">Kabanbay batyr Ave. 53, Astana, Kazakhstan</p>
+                        </div>
+                    </div>
+                </div>
+                <form action="connect.php" method="post" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input" name="Name">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">E-mail</label>
+                            <input type="email" class="contact__input" name="Email">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Project</label>
+                        <input type="text" class="contact__input" name="Project">
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input" name="Message"></textarea>
+                    </div>
+                    <div>
+                        <a href="" class="button button--flex">
+                            Send Message
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Arsen Orazbek</h1>
+                    <span class="footer__subtitle">Biology Sciences Undergraduate</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="Services.html#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="Services.html#portfolio" class="footer__link">Achievements</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://m.facebook.com/arsen.orazbek" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/arsen.orazbek/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://vk.com/arsenorazbek" target="_blank" class="footer__social">
+                        <i class="uil uil-vk-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">Arsen Orazbek 2022</p>
+        </div>
+
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+</a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="../resources/swiper-bundle.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="../main.js"></script>
+</body>
+
+</html>
